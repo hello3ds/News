@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/edz/News/TodayNews/TodayNews/Classes/Others/theme/night_theme.plist">
+   </FileRef>
+   <FileRef
       location = "group:TodayNews.xcodeproj">
    </FileRef>
    <FileRef
