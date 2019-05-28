@@ -39,7 +39,6 @@ class MyTabbarController: UITabBarController {
         }
         childController.title = title
         // 添加导航控制器为 TabBarController 的子控制器
-//        addChildViewController(MyNavigationController(rootViewController: childController))
         addChild(MyNavigationController(rootViewController: childController))
     }
     
@@ -47,6 +46,7 @@ class MyTabbarController: UITabBarController {
     private func setNightChildController(controller: UIViewController, imageName: String) {
         controller.tabBarItem.image = UIImage(named: imageName + "_tabbar_night_32x32_")
         controller.tabBarItem.selectedImage = UIImage(named: imageName + "_tabbar_press_night_32x32_")
+//        controller.tabBarItem
     }
     
     /// 设置日间控制器
@@ -65,8 +65,8 @@ class MyTabbarController: UITabBarController {
         setChildViewController(RedPackageViewController2(), title: "", imageName: "redpackage")
         setChildViewController(WeitoutiaoViewController(), title: "微头条", imageName: "weitoutiao")
         setChildViewController(HuoshanViewController(), title: "小视频", imageName: "huoshan")
-        // tabBar 是 readonly 属性，不能直接修改，利用 KVC 把 readonly 属性的权限改过来
-        //        setValue(MyTabBar(), forKey: "tabBar")
+        //tabBar 是 readonly 属性，不能直接修改，利用 KVC 把 readonly 属性的权限改过来
+//        setValue(MyTabBar(), forKey: "tabBar")
     }
     
     
