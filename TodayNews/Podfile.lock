@@ -8,6 +8,7 @@ PODS:
     - NVActivityIndicatorView (~> 4.6.1)
     - SnapKit (~> 4.2.0)
   - FDFullscreenPopGesture (1.1)
+  - HandyJSON (5.0.0)
   - Kingfisher (5.3.1)
   - lottie-ios (3.0.4)
   - MJRefresh (3.1.16)
@@ -30,6 +31,7 @@ DEPENDENCIES:
   - Alamofire
   - BMPlayer
   - FDFullscreenPopGesture
+  - HandyJSON (~> 5.0.0)
   - Kingfisher
   - lottie-ios
   - MJRefresh
@@ -46,6 +48,7 @@ SPEC REPOS:
     - Alamofire
     - BMPlayer
     - FDFullscreenPopGesture
+    - HandyJSON
     - Kingfisher
     - lottie-ios
     - MJRefresh
@@ -63,6 +66,7 @@ SPEC CHECKSUMS:
   Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
   BMPlayer: ea12f9d82e37f968dea2078b5e58e356ee4439d8
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  HandyJSON: 992f2d661716d6a91de82d0056927bc7813b5770
   Kingfisher: d9e7e0b209b59b8f9873aa2f37654e81a7beea51
   lottie-ios: 55a2de40418f8de2b155efaba4d4d1a025a5c570
   MJRefresh: 7798e16e53a5ef7f332dd05b27664db4e29530fd
@@ -76,6 +80,6 @@ SPEC CHECKSUMS:
   SwiftTheme: a381f983da92153908b7a9eeb961b18b6d94d614
   SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
 
-PODFILE CHECKSUM: 9ce031d48b3de848e67693da341d355914498342
+PODFILE CHECKSUM: a51c8061a6adcdc0be4e58741d8e6786381e6de3
 
 COCOAPODS: 1.6.1

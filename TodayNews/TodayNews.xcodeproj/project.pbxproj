@@ -26,6 +26,10 @@
 		00343B18229C0BF800DFE790 /* RefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00343B17229C0BF800DFE790 /* RefreshView.swift */; };
 		00343B1B229C102500DFE790 /* default_theme.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00343B1A229C102500DFE790 /* default_theme.plist */; };
 		D9EEF53EE8C602117F7156D6 /* Pods_TodayNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 952362B8E1051BC8E58A3F2A /* Pods_TodayNews.framework */; };
+		F44C116A229D84EB009A15C7 /* night_theme.plist in Resources */ = {isa = PBXBuildFile; fileRef = F44C1169229D84EB009A15C7 /* night_theme.plist */; };
+		F44C1170229D8554009A15C7 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44C116F229D8554009A15C7 /* MineViewController.swift */; };
+		F44C1172229D85C7009A15C7 /* MyCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44C1171229D85C7009A15C7 /* MyCellModel.swift */; };
+		F44C1176229D87E2009A15C7 /* NetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44C1175229D87E2009A15C7 /* NetworkTool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,10 +53,13 @@
 		00343B15229C0BD400DFE790 /* RichLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichLabel.swift; sourceTree = "<group>"; };
 		00343B17229C0BF800DFE790 /* RefreshView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshView.swift; sourceTree = "<group>"; };
 		00343B1A229C102500DFE790 /* default_theme.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = default_theme.plist; sourceTree = "<group>"; };
-		00343B1C229C103B00DFE790 /* night_theme.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = night_theme.plist; path = /Users/edz/News/TodayNews/TodayNews/Classes/Others/theme/night_theme.plist; sourceTree = "<absolute>"; };
 		5EECACF1D300DE5540A1E08D /* Pods-TodayNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayNews.debug.xcconfig"; path = "Target Support Files/Pods-TodayNews/Pods-TodayNews.debug.xcconfig"; sourceTree = "<group>"; };
 		778895AE99D32A1FC92E6DAC /* Pods-TodayNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayNews.release.xcconfig"; path = "Target Support Files/Pods-TodayNews/Pods-TodayNews.release.xcconfig"; sourceTree = "<group>"; };
 		952362B8E1051BC8E58A3F2A /* Pods_TodayNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodayNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44C1169229D84EB009A15C7 /* night_theme.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = night_theme.plist; sourceTree = "<group>"; };
+		F44C116F229D8554009A15C7 /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		F44C1171229D85C7009A15C7 /* MyCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCellModel.swift; sourceTree = "<group>"; };
+		F44C1175229D87E2009A15C7 /* NetworkTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTool.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +110,8 @@
 				00343A20229BAF0D00DFE790 /* Home */,
 				00343A21229BAF1400DFE790 /* Video */,
 				00343A22229BAF5C00DFE790 /* HuoShan */,
-				00343A23229BAF9000DFE790 /* Mine */,
 				00343A25229BB29000DFE790 /* WeiTouTiao */,
+				F44C116B229D850E009A15C7 /* Mine */,
 				00343A26229BB2A300DFE790 /* RedPackage */,
 				00343A1F229BAEFB00DFE790 /* Main */,
 				00343A24229BAFA400DFE790 /* Others */,
@@ -115,6 +122,8 @@
 		00343A1F229BAEFB00DFE790 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				F44C1174229D878A009A15C7 /* Extension */,
+				F44C1173229D8778009A15C7 /* Tools */,
 				00343B04229C056700DFE790 /* controller */,
 				00343B05229C056700DFE790 /* model */,
 				00343B06229C056700DFE790 /* view */,
@@ -150,16 +159,6 @@
 				00343AF8229C04D200DFE790 /* view */,
 			);
 			path = HuoShan;
-			sourceTree = "<group>";
-		};
-		00343A23229BAF9000DFE790 /* Mine */ = {
-			isa = PBXGroup;
-			children = (
-				00343AFC229C052B00DFE790 /* controller */,
-				00343AFD229C052B00DFE790 /* model */,
-				00343AFB229C052B00DFE790 /* view */,
-			);
-			path = Mine;
 			sourceTree = "<group>";
 		};
 		00343A24229BAFA400DFE790 /* Others */ = {
@@ -259,27 +258,6 @@
 			path = model;
 			sourceTree = "<group>";
 		};
-		00343AFB229C052B00DFE790 /* view */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = view;
-			sourceTree = "<group>";
-		};
-		00343AFC229C052B00DFE790 /* controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = controller;
-			sourceTree = "<group>";
-		};
-		00343AFD229C052B00DFE790 /* model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = model;
-			sourceTree = "<group>";
-		};
 		00343AFE229C053300DFE790 /* view */ = {
 			isa = PBXGroup;
 			children = (
@@ -355,7 +333,7 @@
 			isa = PBXGroup;
 			children = (
 				00343B1A229C102500DFE790 /* default_theme.plist */,
-				00343B1C229C103B00DFE790 /* night_theme.plist */,
+				F44C1169229D84EB009A15C7 /* night_theme.plist */,
 			);
 			path = theme;
 			sourceTree = "<group>";
@@ -375,6 +353,54 @@
 				778895AE99D32A1FC92E6DAC /* Pods-TodayNews.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		F44C116B229D850E009A15C7 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				F44C116E229D8536009A15C7 /* model */,
+				F44C116D229D852F009A15C7 /* view */,
+				F44C116C229D8526009A15C7 /* controller */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		F44C116C229D8526009A15C7 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				F44C116F229D8554009A15C7 /* MineViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		F44C116D229D852F009A15C7 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		F44C116E229D8536009A15C7 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				F44C1171229D85C7009A15C7 /* MyCellModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		F44C1173229D8778009A15C7 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				F44C1175229D87E2009A15C7 /* NetworkTool.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		F44C1174229D878A009A15C7 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -438,6 +464,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00343B1B229C102500DFE790 /* default_theme.plist in Resources */,
+				F44C116A229D84EB009A15C7 /* night_theme.plist in Resources */,
 				00343A17229B903F00DFE790 /* LaunchScreen.storyboard in Resources */,
 				00343A14229B903F00DFE790 /* Assets.xcassets in Resources */,
 				00343A12229B903E00DFE790 /* Main.storyboard in Resources */,
@@ -481,6 +508,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/BMPlayer/BMPlayer.framework",
 				"${BUILT_PRODUCTS_DIR}/FDFullscreenPopGesture/FDFullscreenPopGesture.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
@@ -501,6 +529,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BMPlayer.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FDFullscreenPopGesture.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
@@ -529,17 +558,20 @@
 				00343B18229C0BF800DFE790 /* RefreshView.swift in Sources */,
 				00343A28229BB56E00DFE790 /* MyNavigationController.swift in Sources */,
 				00343B0E229C065500DFE790 /* WeitoutiaoViewController.swift in Sources */,
+				F44C1172229D85C7009A15C7 /* MyCellModel.swift in Sources */,
 				00343B0A229C060700DFE790 /* VideoViewController.swift in Sources */,
 				00343B16229C0BD400DFE790 /* RichLabel.swift in Sources */,
 				00343A2A229BB5E300DFE790 /* MyTabbarController.swift in Sources */,
 				00343B0C229C061A00DFE790 /* HuoshanViewController.swift in Sources */,
 				00343B12229C068F00DFE790 /* RedPackageViewController2.swift in Sources */,
+				F44C1176229D87E2009A15C7 /* NetworkTool.swift in Sources */,
 				00343A0F229B903E00DFE790 /* ViewController.swift in Sources */,
 				00343A0D229B903E00DFE790 /* AppDelegate.swift in Sources */,
 				00343B10229C068100DFE790 /* RedPackageViewController.swift in Sources */,
 				00343AF1229BF20900DFE790 /* Const.swift in Sources */,
 				00343B08229C05ED00DFE790 /* HomeViewController.swift in Sources */,
 				00343B14229C0BB200DFE790 /* MyTabbar.swift in Sources */,
+				F44C1170229D8554009A15C7 /* MineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
