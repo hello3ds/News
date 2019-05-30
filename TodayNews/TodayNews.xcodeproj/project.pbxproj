@@ -25,6 +25,8 @@
 		00343B16229C0BD400DFE790 /* RichLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00343B15229C0BD400DFE790 /* RichLabel.swift */; };
 		00343B18229C0BF800DFE790 /* RefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00343B17229C0BF800DFE790 /* RefreshView.swift */; };
 		00343B1B229C102500DFE790 /* default_theme.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00343B1A229C102500DFE790 /* default_theme.plist */; };
+		00AA05C2229FAA53005529D3 /* UIKit+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AA05C1229FAA53005529D3 /* UIKit+Extension.swift */; };
+		00AA05C4229FBDD4005529D3 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AA05C3229FBDD4005529D3 /* Emoji.swift */; };
 		D9EEF53EE8C602117F7156D6 /* Pods_TodayNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 952362B8E1051BC8E58A3F2A /* Pods_TodayNews.framework */; };
 		F44C116A229D84EB009A15C7 /* night_theme.plist in Resources */ = {isa = PBXBuildFile; fileRef = F44C1169229D84EB009A15C7 /* night_theme.plist */; };
 		F44C1170229D8554009A15C7 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44C116F229D8554009A15C7 /* MineViewController.swift */; };
@@ -53,6 +55,8 @@
 		00343B15229C0BD400DFE790 /* RichLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichLabel.swift; sourceTree = "<group>"; };
 		00343B17229C0BF800DFE790 /* RefreshView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshView.swift; sourceTree = "<group>"; };
 		00343B1A229C102500DFE790 /* default_theme.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = default_theme.plist; sourceTree = "<group>"; };
+		00AA05C1229FAA53005529D3 /* UIKit+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIKit+Extension.swift"; sourceTree = "<group>"; };
+		00AA05C3229FBDD4005529D3 /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
 		5EECACF1D300DE5540A1E08D /* Pods-TodayNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayNews.debug.xcconfig"; path = "Target Support Files/Pods-TodayNews/Pods-TodayNews.debug.xcconfig"; sourceTree = "<group>"; };
 		778895AE99D32A1FC92E6DAC /* Pods-TodayNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayNews.release.xcconfig"; path = "Target Support Files/Pods-TodayNews/Pods-TodayNews.release.xcconfig"; sourceTree = "<group>"; };
 		952362B8E1051BC8E58A3F2A /* Pods_TodayNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodayNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,7 +126,7 @@
 		00343A1F229BAEFB00DFE790 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				F44C1174229D878A009A15C7 /* Extension */,
+				00AA05C0229FAA41005529D3 /* Extension */,
 				F44C1173229D8778009A15C7 /* Tools */,
 				00343B04229C056700DFE790 /* controller */,
 				00343B05229C056700DFE790 /* model */,
@@ -338,6 +342,14 @@
 			path = theme;
 			sourceTree = "<group>";
 		};
+		00AA05C0229FAA41005529D3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				00AA05C1229FAA53005529D3 /* UIKit+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		0F119BB358B6A3154EB5CCA2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -392,15 +404,9 @@
 			isa = PBXGroup;
 			children = (
 				F44C1175229D87E2009A15C7 /* NetworkTool.swift */,
+				00AA05C3229FBDD4005529D3 /* Emoji.swift */,
 			);
 			path = Tools;
-			sourceTree = "<group>";
-		};
-		F44C1174229D878A009A15C7 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -569,8 +575,10 @@
 				00343A0D229B903E00DFE790 /* AppDelegate.swift in Sources */,
 				00343B10229C068100DFE790 /* RedPackageViewController.swift in Sources */,
 				00343AF1229BF20900DFE790 /* Const.swift in Sources */,
+				00AA05C4229FBDD4005529D3 /* Emoji.swift in Sources */,
 				00343B08229C05ED00DFE790 /* HomeViewController.swift in Sources */,
 				00343B14229C0BB200DFE790 /* MyTabbar.swift in Sources */,
+				00AA05C2229FAA53005529D3 /* UIKit+Extension.swift in Sources */,
 				F44C1170229D8554009A15C7 /* MineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
