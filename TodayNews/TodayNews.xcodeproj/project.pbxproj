@@ -27,6 +27,19 @@
 		00343B1B229C102500DFE790 /* default_theme.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00343B1A229C102500DFE790 /* default_theme.plist */; };
 		00AA05C2229FAA53005529D3 /* UIKit+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AA05C1229FAA53005529D3 /* UIKit+Extension.swift */; };
 		00AA05C4229FBDD4005529D3 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AA05C3229FBDD4005529D3 /* Emoji.swift */; };
+		00AA05CC22A0C40D005529D3 /* Calculatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AA05CB22A0C40D005529D3 /* Calculatable.swift */; };
+		00AA05CE22A0CAB7005529D3 /* UserDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AA05CD22A0CAB7005529D3 /* UserDetail.swift */; };
+		00AA05D222A0CD05005529D3 /* SettingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AA05D122A0CD05005529D3 /* SettingModel.swift */; };
+		00AA05D422A0CDB8005529D3 /* PopoverAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AA05D322A0CDB8005529D3 /* PopoverAnimator.swift */; };
+		00AA05D722A0D209005529D3 /* MyOtherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AA05D522A0D209005529D3 /* MyOtherCell.swift */; };
+		00AA05D822A0D209005529D3 /* MyOtherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00AA05D622A0D209005529D3 /* MyOtherCell.xib */; };
+		00AA05DF22A0D44A005529D3 /* MyFirstSectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AA05DD22A0D44A005529D3 /* MyFirstSectionCell.swift */; };
+		00AA05E022A0D44A005529D3 /* MyFirstSectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00AA05DE22A0D44A005529D3 /* MyFirstSectionCell.xib */; };
+		00AA05EC22A0D872005529D3 /* MyConcernCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00AA05EA22A0D872005529D3 /* MyConcernCell.xib */; };
+		00AA05EE22A0D96A005529D3 /* MyConcernCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AA05ED22A0D96A005529D3 /* MyConcernCell.swift */; };
+		00AA05F122A0DB9B005529D3 /* NoLoginHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AA05EF22A0DB9A005529D3 /* NoLoginHeaderView.swift */; };
+		00AA05F222A0DB9B005529D3 /* NoLoginHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00AA05F022A0DB9B005529D3 /* NoLoginHeaderView.xib */; };
+		00AA05F422A0DC98005529D3 /* MyTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AA05F322A0DC98005529D3 /* MyTheme.swift */; };
 		D9EEF53EE8C602117F7156D6 /* Pods_TodayNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 952362B8E1051BC8E58A3F2A /* Pods_TodayNews.framework */; };
 		F44C116A229D84EB009A15C7 /* night_theme.plist in Resources */ = {isa = PBXBuildFile; fileRef = F44C1169229D84EB009A15C7 /* night_theme.plist */; };
 		F44C1170229D8554009A15C7 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44C116F229D8554009A15C7 /* MineViewController.swift */; };
@@ -57,6 +70,19 @@
 		00343B1A229C102500DFE790 /* default_theme.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = default_theme.plist; sourceTree = "<group>"; };
 		00AA05C1229FAA53005529D3 /* UIKit+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIKit+Extension.swift"; sourceTree = "<group>"; };
 		00AA05C3229FBDD4005529D3 /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
+		00AA05CB22A0C40D005529D3 /* Calculatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculatable.swift; sourceTree = "<group>"; };
+		00AA05CD22A0CAB7005529D3 /* UserDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetail.swift; sourceTree = "<group>"; };
+		00AA05D122A0CD05005529D3 /* SettingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingModel.swift; sourceTree = "<group>"; };
+		00AA05D322A0CDB8005529D3 /* PopoverAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverAnimator.swift; sourceTree = "<group>"; };
+		00AA05D522A0D209005529D3 /* MyOtherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOtherCell.swift; sourceTree = "<group>"; };
+		00AA05D622A0D209005529D3 /* MyOtherCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyOtherCell.xib; sourceTree = "<group>"; };
+		00AA05DD22A0D44A005529D3 /* MyFirstSectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstSectionCell.swift; sourceTree = "<group>"; };
+		00AA05DE22A0D44A005529D3 /* MyFirstSectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyFirstSectionCell.xib; sourceTree = "<group>"; };
+		00AA05EA22A0D872005529D3 /* MyConcernCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyConcernCell.xib; sourceTree = "<group>"; };
+		00AA05ED22A0D96A005529D3 /* MyConcernCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyConcernCell.swift; sourceTree = "<group>"; };
+		00AA05EF22A0DB9A005529D3 /* NoLoginHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoLoginHeaderView.swift; sourceTree = "<group>"; };
+		00AA05F022A0DB9B005529D3 /* NoLoginHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoLoginHeaderView.xib; sourceTree = "<group>"; };
+		00AA05F322A0DC98005529D3 /* MyTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTheme.swift; sourceTree = "<group>"; };
 		5EECACF1D300DE5540A1E08D /* Pods-TodayNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayNews.debug.xcconfig"; path = "Target Support Files/Pods-TodayNews/Pods-TodayNews.debug.xcconfig"; sourceTree = "<group>"; };
 		778895AE99D32A1FC92E6DAC /* Pods-TodayNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayNews.release.xcconfig"; path = "Target Support Files/Pods-TodayNews/Pods-TodayNews.release.xcconfig"; sourceTree = "<group>"; };
 		952362B8E1051BC8E58A3F2A /* Pods_TodayNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodayNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -388,6 +414,14 @@
 		F44C116D229D852F009A15C7 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				00AA05ED22A0D96A005529D3 /* MyConcernCell.swift */,
+				00AA05EA22A0D872005529D3 /* MyConcernCell.xib */,
+				00AA05DD22A0D44A005529D3 /* MyFirstSectionCell.swift */,
+				00AA05DE22A0D44A005529D3 /* MyFirstSectionCell.xib */,
+				00AA05D522A0D209005529D3 /* MyOtherCell.swift */,
+				00AA05D622A0D209005529D3 /* MyOtherCell.xib */,
+				00AA05EF22A0DB9A005529D3 /* NoLoginHeaderView.swift */,
+				00AA05F022A0DB9B005529D3 /* NoLoginHeaderView.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -396,6 +430,9 @@
 			isa = PBXGroup;
 			children = (
 				F44C1171229D85C7009A15C7 /* MyCellModel.swift */,
+				00AA05CD22A0CAB7005529D3 /* UserDetail.swift */,
+				00AA05D122A0CD05005529D3 /* SettingModel.swift */,
+				00AA05D322A0CDB8005529D3 /* PopoverAnimator.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -404,7 +441,9 @@
 			isa = PBXGroup;
 			children = (
 				F44C1175229D87E2009A15C7 /* NetworkTool.swift */,
+				00AA05CB22A0C40D005529D3 /* Calculatable.swift */,
 				00AA05C3229FBDD4005529D3 /* Emoji.swift */,
+				00AA05F322A0DC98005529D3 /* MyTheme.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -470,10 +509,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				00343B1B229C102500DFE790 /* default_theme.plist in Resources */,
+				00AA05EC22A0D872005529D3 /* MyConcernCell.xib in Resources */,
 				F44C116A229D84EB009A15C7 /* night_theme.plist in Resources */,
+				00AA05E022A0D44A005529D3 /* MyFirstSectionCell.xib in Resources */,
 				00343A17229B903F00DFE790 /* LaunchScreen.storyboard in Resources */,
 				00343A14229B903F00DFE790 /* Assets.xcassets in Resources */,
+				00AA05D822A0D209005529D3 /* MyOtherCell.xib in Resources */,
 				00343A12229B903E00DFE790 /* Main.storyboard in Resources */,
+				00AA05F222A0DB9B005529D3 /* NoLoginHeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -561,19 +604,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00AA05DF22A0D44A005529D3 /* MyFirstSectionCell.swift in Sources */,
+				00AA05D222A0CD05005529D3 /* SettingModel.swift in Sources */,
 				00343B18229C0BF800DFE790 /* RefreshView.swift in Sources */,
+				00AA05CE22A0CAB7005529D3 /* UserDetail.swift in Sources */,
 				00343A28229BB56E00DFE790 /* MyNavigationController.swift in Sources */,
 				00343B0E229C065500DFE790 /* WeitoutiaoViewController.swift in Sources */,
 				F44C1172229D85C7009A15C7 /* MyCellModel.swift in Sources */,
 				00343B0A229C060700DFE790 /* VideoViewController.swift in Sources */,
 				00343B16229C0BD400DFE790 /* RichLabel.swift in Sources */,
 				00343A2A229BB5E300DFE790 /* MyTabbarController.swift in Sources */,
+				00AA05F122A0DB9B005529D3 /* NoLoginHeaderView.swift in Sources */,
+				00AA05D422A0CDB8005529D3 /* PopoverAnimator.swift in Sources */,
 				00343B0C229C061A00DFE790 /* HuoshanViewController.swift in Sources */,
 				00343B12229C068F00DFE790 /* RedPackageViewController2.swift in Sources */,
+				00AA05D722A0D209005529D3 /* MyOtherCell.swift in Sources */,
 				F44C1176229D87E2009A15C7 /* NetworkTool.swift in Sources */,
+				00AA05CC22A0C40D005529D3 /* Calculatable.swift in Sources */,
 				00343A0F229B903E00DFE790 /* ViewController.swift in Sources */,
 				00343A0D229B903E00DFE790 /* AppDelegate.swift in Sources */,
 				00343B10229C068100DFE790 /* RedPackageViewController.swift in Sources */,
+				00AA05EE22A0D96A005529D3 /* MyConcernCell.swift in Sources */,
+				00AA05F422A0DC98005529D3 /* MyTheme.swift in Sources */,
 				00343AF1229BF20900DFE790 /* Const.swift in Sources */,
 				00AA05C4229FBDD4005529D3 /* Emoji.swift in Sources */,
 				00343B08229C05ED00DFE790 /* HomeViewController.swift in Sources */,
