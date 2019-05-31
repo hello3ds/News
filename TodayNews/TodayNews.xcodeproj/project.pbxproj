@@ -25,6 +25,69 @@
 		00343B16229C0BD400DFE790 /* RichLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00343B15229C0BD400DFE790 /* RichLabel.swift */; };
 		00343B18229C0BF800DFE790 /* RefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00343B17229C0BF800DFE790 /* RefreshView.swift */; };
 		00343B1B229C102500DFE790 /* default_theme.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00343B1A229C102500DFE790 /* default_theme.plist */; };
+		007D972922A120770000AE47 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D972822A120770000AE47 /* SettingViewController.swift */; };
+		007D972B22A1209D0000AE47 /* OfflineDownloadController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D972A22A1209D0000AE47 /* OfflineDownloadController.swift */; };
+		007D972E22A120BD0000AE47 /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D972C22A120BD0000AE47 /* UserDetailViewController.swift */; };
+		007D972F22A120BD0000AE47 /* UserDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 007D972D22A120BD0000AE47 /* UserDetailViewController.xib */; };
+		007D973122A120E50000AE47 /* UserDetailBottomPushController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D973022A120E50000AE47 /* UserDetailBottomPushController.swift */; };
+		007D973422A121100000AE47 /* UserDetailBottomPopController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D973222A121100000AE47 /* UserDetailBottomPopController.swift */; };
+		007D973522A121100000AE47 /* UserDetailBottomPopController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 007D973322A121100000AE47 /* UserDetailBottomPopController.xib */; };
+		007D973722A121830000AE47 /* MyPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D973622A121830000AE47 /* MyPresentationController.swift */; };
+		007D973A22A121E80000AE47 /* PreviewDongtaiBigImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D973822A121E80000AE47 /* PreviewDongtaiBigImageController.swift */; };
+		007D973B22A121E80000AE47 /* PreviewDongtaiBigImageController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 007D973922A121E80000AE47 /* PreviewDongtaiBigImageController.xib */; };
+		007D973E22A1220D0000AE47 /* PreviewUserAvatarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D973C22A1220D0000AE47 /* PreviewUserAvatarController.swift */; };
+		007D973F22A1220D0000AE47 /* PreviewUserAvatarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 007D973D22A1220D0000AE47 /* PreviewUserAvatarController.xib */; };
+		007D974222A122390000AE47 /* UserDetailViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D974022A122390000AE47 /* UserDetailViewController2.swift */; };
+		007D974322A122390000AE47 /* UserDetailViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 007D974122A122390000AE47 /* UserDetailViewController2.xib */; };
+		007D974522A122590000AE47 /* DongtaiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D974422A122590000AE47 /* DongtaiTableViewController.swift */; };
+		007D974822A122750000AE47 /* DongtaiDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D974622A122750000AE47 /* DongtaiDetailViewController.swift */; };
+		007D974922A122750000AE47 /* DongtaiDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 007D974722A122750000AE47 /* DongtaiDetailViewController.xib */; };
+		007D975022A122CC0000AE47 /* UserDiggViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D974E22A122CC0000AE47 /* UserDiggViewController.swift */; };
+		007D975122A122CC0000AE47 /* UserDiggViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 007D974F22A122CC0000AE47 /* UserDiggViewController.xib */; };
+		007D975522A123960000AE47 /* DongtaiCollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 007D975422A123960000AE47 /* DongtaiCollectionView.xib */; };
+		007D975722A1252D0000AE47 /* DongtaiCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D975622A1252D0000AE47 /* DongtaiCollectionView.swift */; };
+		007D975A22A127890000AE47 /* DongtaiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D975822A127890000AE47 /* DongtaiCollectionViewCell.swift */; };
+		007D975B22A127890000AE47 /* DongtaiCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 007D975922A127890000AE47 /* DongtaiCollectionViewCell.xib */; };
+		007D975E22A149B30000AE47 /* DongtaiCommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D975C22A149B30000AE47 /* DongtaiCommentTableViewCell.swift */; };
+		007D975F22A149B30000AE47 /* DongtaiCommentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 007D975D22A149B30000AE47 /* DongtaiCommentTableViewCell.xib */; };
+		007D976122A149E20000AE47 /* DongtaiDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D976022A149E20000AE47 /* DongtaiDetailHeaderView.swift */; };
+		007D976322A14A040000AE47 /* DongtaiDetailHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 007D976222A14A040000AE47 /* DongtaiDetailHeaderView.xib */; };
+		007D976522A14A430000AE47 /* DongtaiNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D976422A14A430000AE47 /* DongtaiNavigationBar.swift */; };
+		007D976722A14A4F0000AE47 /* DongtaiNavigationBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 007D976622A14A4F0000AE47 /* DongtaiNavigationBar.xib */; };
+		007D976922A14A830000AE47 /* DongtaiOriginThreadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D976822A14A830000AE47 /* DongtaiOriginThreadView.swift */; };
+		007D976B22A14A980000AE47 /* DongtaiOriginThreadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 007D976A22A14A980000AE47 /* DongtaiOriginThreadView.xib */; };
+		007D977022A14AF00000AE47 /* EmojiCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D976E22A14AF00000AE47 /* EmojiCollectionCell.swift */; };
+		007D977122A14AF00000AE47 /* EmojiCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 007D976F22A14AF00000AE47 /* EmojiCollectionCell.xib */; };
+		007D977322A14B280000AE47 /* EmojiLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D977222A14B280000AE47 /* EmojiLayout.swift */; };
+		007D977622A14B5F0000AE47 /* OfflineDownloadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D977422A14B5F0000AE47 /* OfflineDownloadCell.swift */; };
+		007D977722A14B5F0000AE47 /* OfflineDownloadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 007D977522A14B5F0000AE47 /* OfflineDownloadCell.xib */; };
+		007D977922A14B8C0000AE47 /* OfflineSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D977822A14B8C0000AE47 /* OfflineSectionHeader.swift */; };
+		007D977B22A14BA10000AE47 /* PostCommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D977A22A14BA10000AE47 /* PostCommentView.swift */; };
+		007D977D22A14BAD0000AE47 /* PostCommentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 007D977C22A14BAD0000AE47 /* PostCommentView.xib */; };
+		007D977F22A14BDF0000AE47 /* PostVideoOrArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D977E22A14BDF0000AE47 /* PostVideoOrArticleView.swift */; };
+		007D978122A14BEB0000AE47 /* PostVideoOrArticleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 007D978022A14BEB0000AE47 /* PostVideoOrArticleView.xib */; };
+		007D978322A14C1C0000AE47 /* PreviewDongtaiBigImageLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D978222A14C1C0000AE47 /* PreviewDongtaiBigImageLayout.swift */; };
+		007D978622A14C420000AE47 /* RelationRecommendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D978422A14C420000AE47 /* RelationRecommendCell.swift */; };
+		007D978722A14C420000AE47 /* RelationRecommendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 007D978522A14C420000AE47 /* RelationRecommendCell.xib */; };
+		007D978922A14C710000AE47 /* RelationRecommendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D978822A14C710000AE47 /* RelationRecommendView.swift */; };
+		007D978B22A14C830000AE47 /* RelationRecommendView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 007D978A22A14C830000AE47 /* RelationRecommendView.xib */; };
+		007D978E22A14CB10000AE47 /* SettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D978C22A14CB10000AE47 /* SettingCell.swift */; };
+		007D978F22A14CB10000AE47 /* SettingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 007D978D22A14CB10000AE47 /* SettingCell.xib */; };
+		007D979122A14CD50000AE47 /* TopTabScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D979022A14CD50000AE47 /* TopTabScrollView.swift */; };
+		007D979322A14CF20000AE47 /* UserDetailBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D979222A14CF20000AE47 /* UserDetailBottomView.swift */; };
+		007D979622A14D4D0000AE47 /* UserDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D979422A14D4D0000AE47 /* UserDetailCell.swift */; };
+		007D979722A14D4D0000AE47 /* UserDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 007D979522A14D4D0000AE47 /* UserDetailCell.xib */; };
+		007D979A22A14D6F0000AE47 /* UserDetailDongTaiCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D979822A14D6F0000AE47 /* UserDetailDongTaiCell.swift */; };
+		007D979B22A14D6F0000AE47 /* UserDetailDongTaiCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 007D979922A14D6F0000AE47 /* UserDetailDongTaiCell.xib */; };
+		007D979F22A14D9C0000AE47 /* UserDetailHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 007D979E22A14D9C0000AE47 /* UserDetailHeaderView.xib */; };
+		007D97A122A14DC20000AE47 /* UserDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D97A022A14DC20000AE47 /* UserDetailHeaderView.swift */; };
+		007D97A322A14DF00000AE47 /* UserDetailHeaderView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D97A222A14DF00000AE47 /* UserDetailHeaderView2.swift */; };
+		007D97A722A14E430000AE47 /* UserDetailNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D97A622A14E430000AE47 /* UserDetailNavigationBar.swift */; };
+		007D97A922A14E5E0000AE47 /* UserDetailNavigationBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 007D97A822A14E5E0000AE47 /* UserDetailNavigationBar.xib */; };
+		007D97AC22A14E920000AE47 /* UserDetailWendaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D97AA22A14E920000AE47 /* UserDetailWendaCell.swift */; };
+		007D97AD22A14E920000AE47 /* UserDetailWendaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 007D97AB22A14E920000AE47 /* UserDetailWendaCell.xib */; };
+		007D97B022A14EAF0000AE47 /* UserDiggCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D97AE22A14EAF0000AE47 /* UserDiggCell.swift */; };
+		007D97B122A14EAF0000AE47 /* UserDiggCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 007D97AF22A14EAF0000AE47 /* UserDiggCell.xib */; };
 		00AA05C2229FAA53005529D3 /* UIKit+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AA05C1229FAA53005529D3 /* UIKit+Extension.swift */; };
 		00AA05C4229FBDD4005529D3 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AA05C3229FBDD4005529D3 /* Emoji.swift */; };
 		00AA05CC22A0C40D005529D3 /* Calculatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AA05CB22A0C40D005529D3 /* Calculatable.swift */; };
@@ -68,6 +131,71 @@
 		00343B15229C0BD400DFE790 /* RichLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichLabel.swift; sourceTree = "<group>"; };
 		00343B17229C0BF800DFE790 /* RefreshView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshView.swift; sourceTree = "<group>"; };
 		00343B1A229C102500DFE790 /* default_theme.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = default_theme.plist; sourceTree = "<group>"; };
+		007D972822A120770000AE47 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		007D972A22A1209D0000AE47 /* OfflineDownloadController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineDownloadController.swift; sourceTree = "<group>"; };
+		007D972C22A120BD0000AE47 /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
+		007D972D22A120BD0000AE47 /* UserDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserDetailViewController.xib; sourceTree = "<group>"; };
+		007D973022A120E50000AE47 /* UserDetailBottomPushController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailBottomPushController.swift; sourceTree = "<group>"; };
+		007D973222A121100000AE47 /* UserDetailBottomPopController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailBottomPopController.swift; sourceTree = "<group>"; };
+		007D973322A121100000AE47 /* UserDetailBottomPopController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserDetailBottomPopController.xib; sourceTree = "<group>"; };
+		007D973622A121830000AE47 /* MyPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPresentationController.swift; sourceTree = "<group>"; };
+		007D973822A121E80000AE47 /* PreviewDongtaiBigImageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewDongtaiBigImageController.swift; sourceTree = "<group>"; };
+		007D973922A121E80000AE47 /* PreviewDongtaiBigImageController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PreviewDongtaiBigImageController.xib; sourceTree = "<group>"; };
+		007D973C22A1220D0000AE47 /* PreviewUserAvatarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewUserAvatarController.swift; sourceTree = "<group>"; };
+		007D973D22A1220D0000AE47 /* PreviewUserAvatarController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PreviewUserAvatarController.xib; sourceTree = "<group>"; };
+		007D974022A122390000AE47 /* UserDetailViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController2.swift; sourceTree = "<group>"; };
+		007D974122A122390000AE47 /* UserDetailViewController2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserDetailViewController2.xib; sourceTree = "<group>"; };
+		007D974422A122590000AE47 /* DongtaiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DongtaiTableViewController.swift; sourceTree = "<group>"; };
+		007D974622A122750000AE47 /* DongtaiDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DongtaiDetailViewController.swift; sourceTree = "<group>"; };
+		007D974722A122750000AE47 /* DongtaiDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DongtaiDetailViewController.xib; sourceTree = "<group>"; };
+		007D974E22A122CC0000AE47 /* UserDiggViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDiggViewController.swift; sourceTree = "<group>"; };
+		007D974F22A122CC0000AE47 /* UserDiggViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserDiggViewController.xib; sourceTree = "<group>"; };
+		007D975422A123960000AE47 /* DongtaiCollectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DongtaiCollectionView.xib; sourceTree = "<group>"; };
+		007D975622A1252D0000AE47 /* DongtaiCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DongtaiCollectionView.swift; sourceTree = "<group>"; };
+		007D975822A127890000AE47 /* DongtaiCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DongtaiCollectionViewCell.swift; sourceTree = "<group>"; };
+		007D975922A127890000AE47 /* DongtaiCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DongtaiCollectionViewCell.xib; sourceTree = "<group>"; };
+		007D975C22A149B30000AE47 /* DongtaiCommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DongtaiCommentTableViewCell.swift; sourceTree = "<group>"; };
+		007D975D22A149B30000AE47 /* DongtaiCommentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DongtaiCommentTableViewCell.xib; sourceTree = "<group>"; };
+		007D976022A149E20000AE47 /* DongtaiDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DongtaiDetailHeaderView.swift; sourceTree = "<group>"; };
+		007D976222A14A040000AE47 /* DongtaiDetailHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DongtaiDetailHeaderView.xib; sourceTree = "<group>"; };
+		007D976422A14A430000AE47 /* DongtaiNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DongtaiNavigationBar.swift; sourceTree = "<group>"; };
+		007D976622A14A4F0000AE47 /* DongtaiNavigationBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DongtaiNavigationBar.xib; sourceTree = "<group>"; };
+		007D976822A14A830000AE47 /* DongtaiOriginThreadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DongtaiOriginThreadView.swift; sourceTree = "<group>"; };
+		007D976A22A14A980000AE47 /* DongtaiOriginThreadView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DongtaiOriginThreadView.xib; sourceTree = "<group>"; };
+		007D976E22A14AF00000AE47 /* EmojiCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiCollectionCell.swift; sourceTree = "<group>"; };
+		007D976F22A14AF00000AE47 /* EmojiCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmojiCollectionCell.xib; sourceTree = "<group>"; };
+		007D977222A14B280000AE47 /* EmojiLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiLayout.swift; sourceTree = "<group>"; };
+		007D977422A14B5F0000AE47 /* OfflineDownloadCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineDownloadCell.swift; sourceTree = "<group>"; };
+		007D977522A14B5F0000AE47 /* OfflineDownloadCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OfflineDownloadCell.xib; sourceTree = "<group>"; };
+		007D977822A14B8C0000AE47 /* OfflineSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineSectionHeader.swift; sourceTree = "<group>"; };
+		007D977A22A14BA10000AE47 /* PostCommentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCommentView.swift; sourceTree = "<group>"; };
+		007D977C22A14BAD0000AE47 /* PostCommentView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostCommentView.xib; sourceTree = "<group>"; };
+		007D977E22A14BDF0000AE47 /* PostVideoOrArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostVideoOrArticleView.swift; sourceTree = "<group>"; };
+		007D978022A14BEB0000AE47 /* PostVideoOrArticleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostVideoOrArticleView.xib; sourceTree = "<group>"; };
+		007D978222A14C1C0000AE47 /* PreviewDongtaiBigImageLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewDongtaiBigImageLayout.swift; sourceTree = "<group>"; };
+		007D978422A14C420000AE47 /* RelationRecommendCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelationRecommendCell.swift; sourceTree = "<group>"; };
+		007D978522A14C420000AE47 /* RelationRecommendCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RelationRecommendCell.xib; sourceTree = "<group>"; };
+		007D978822A14C710000AE47 /* RelationRecommendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelationRecommendView.swift; sourceTree = "<group>"; };
+		007D978A22A14C830000AE47 /* RelationRecommendView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RelationRecommendView.xib; sourceTree = "<group>"; };
+		007D978C22A14CB10000AE47 /* SettingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCell.swift; sourceTree = "<group>"; };
+		007D978D22A14CB10000AE47 /* SettingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingCell.xib; sourceTree = "<group>"; };
+		007D979022A14CD50000AE47 /* TopTabScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTabScrollView.swift; sourceTree = "<group>"; };
+		007D979222A14CF20000AE47 /* UserDetailBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailBottomView.swift; sourceTree = "<group>"; };
+		007D979422A14D4D0000AE47 /* UserDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailCell.swift; sourceTree = "<group>"; };
+		007D979522A14D4D0000AE47 /* UserDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserDetailCell.xib; sourceTree = "<group>"; };
+		007D979822A14D6F0000AE47 /* UserDetailDongTaiCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailDongTaiCell.swift; sourceTree = "<group>"; };
+		007D979922A14D6F0000AE47 /* UserDetailDongTaiCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserDetailDongTaiCell.xib; sourceTree = "<group>"; };
+		007D979E22A14D9C0000AE47 /* UserDetailHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserDetailHeaderView.xib; sourceTree = "<group>"; };
+		007D97A022A14DC20000AE47 /* UserDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailHeaderView.swift; sourceTree = "<group>"; };
+		007D97A222A14DF00000AE47 /* UserDetailHeaderView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailHeaderView2.swift; sourceTree = "<group>"; };
+		007D97A422A14E130000AE47 /* UserDetailHeaderView2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = UserDetailHeaderView2.xib; path = ../../../../UserDetailHeaderView2.xib; sourceTree = "<group>"; };
+		007D97A522A14E160000AE47 /* UserDetailHeaderView2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = UserDetailHeaderView2.xib; path = ../../../../UserDetailHeaderView2.xib; sourceTree = "<group>"; };
+		007D97A622A14E430000AE47 /* UserDetailNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailNavigationBar.swift; sourceTree = "<group>"; };
+		007D97A822A14E5E0000AE47 /* UserDetailNavigationBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserDetailNavigationBar.xib; sourceTree = "<group>"; };
+		007D97AA22A14E920000AE47 /* UserDetailWendaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailWendaCell.swift; sourceTree = "<group>"; };
+		007D97AB22A14E920000AE47 /* UserDetailWendaCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserDetailWendaCell.xib; sourceTree = "<group>"; };
+		007D97AE22A14EAF0000AE47 /* UserDiggCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDiggCell.swift; sourceTree = "<group>"; };
+		007D97AF22A14EAF0000AE47 /* UserDiggCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserDiggCell.xib; sourceTree = "<group>"; };
 		00AA05C1229FAA53005529D3 /* UIKit+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIKit+Extension.swift"; sourceTree = "<group>"; };
 		00AA05C3229FBDD4005529D3 /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
 		00AA05CB22A0C40D005529D3 /* Calculatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculatable.swift; sourceTree = "<group>"; };
@@ -407,6 +535,25 @@
 			isa = PBXGroup;
 			children = (
 				F44C116F229D8554009A15C7 /* MineViewController.swift */,
+				007D972822A120770000AE47 /* SettingViewController.swift */,
+				007D972A22A1209D0000AE47 /* OfflineDownloadController.swift */,
+				007D972C22A120BD0000AE47 /* UserDetailViewController.swift */,
+				007D972D22A120BD0000AE47 /* UserDetailViewController.xib */,
+				007D973022A120E50000AE47 /* UserDetailBottomPushController.swift */,
+				007D973222A121100000AE47 /* UserDetailBottomPopController.swift */,
+				007D973322A121100000AE47 /* UserDetailBottomPopController.xib */,
+				007D973622A121830000AE47 /* MyPresentationController.swift */,
+				007D973822A121E80000AE47 /* PreviewDongtaiBigImageController.swift */,
+				007D973922A121E80000AE47 /* PreviewDongtaiBigImageController.xib */,
+				007D973C22A1220D0000AE47 /* PreviewUserAvatarController.swift */,
+				007D973D22A1220D0000AE47 /* PreviewUserAvatarController.xib */,
+				007D974022A122390000AE47 /* UserDetailViewController2.swift */,
+				007D974122A122390000AE47 /* UserDetailViewController2.xib */,
+				007D974422A122590000AE47 /* DongtaiTableViewController.swift */,
+				007D974622A122750000AE47 /* DongtaiDetailViewController.swift */,
+				007D974722A122750000AE47 /* DongtaiDetailViewController.xib */,
+				007D974E22A122CC0000AE47 /* UserDiggViewController.swift */,
+				007D974F22A122CC0000AE47 /* UserDiggViewController.xib */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -414,6 +561,21 @@
 		F44C116D229D852F009A15C7 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				007D975622A1252D0000AE47 /* DongtaiCollectionView.swift */,
+				007D975422A123960000AE47 /* DongtaiCollectionView.xib */,
+				007D975822A127890000AE47 /* DongtaiCollectionViewCell.swift */,
+				007D975922A127890000AE47 /* DongtaiCollectionViewCell.xib */,
+				007D975C22A149B30000AE47 /* DongtaiCommentTableViewCell.swift */,
+				007D975D22A149B30000AE47 /* DongtaiCommentTableViewCell.xib */,
+				007D976022A149E20000AE47 /* DongtaiDetailHeaderView.swift */,
+				007D976222A14A040000AE47 /* DongtaiDetailHeaderView.xib */,
+				007D976422A14A430000AE47 /* DongtaiNavigationBar.swift */,
+				007D976622A14A4F0000AE47 /* DongtaiNavigationBar.xib */,
+				007D976822A14A830000AE47 /* DongtaiOriginThreadView.swift */,
+				007D976A22A14A980000AE47 /* DongtaiOriginThreadView.xib */,
+				007D976E22A14AF00000AE47 /* EmojiCollectionCell.swift */,
+				007D976F22A14AF00000AE47 /* EmojiCollectionCell.xib */,
+				007D977222A14B280000AE47 /* EmojiLayout.swift */,
 				00AA05ED22A0D96A005529D3 /* MyConcernCell.swift */,
 				00AA05EA22A0D872005529D3 /* MyConcernCell.xib */,
 				00AA05DD22A0D44A005529D3 /* MyFirstSectionCell.swift */,
@@ -422,6 +584,37 @@
 				00AA05D622A0D209005529D3 /* MyOtherCell.xib */,
 				00AA05EF22A0DB9A005529D3 /* NoLoginHeaderView.swift */,
 				00AA05F022A0DB9B005529D3 /* NoLoginHeaderView.xib */,
+				007D977422A14B5F0000AE47 /* OfflineDownloadCell.swift */,
+				007D977522A14B5F0000AE47 /* OfflineDownloadCell.xib */,
+				007D977822A14B8C0000AE47 /* OfflineSectionHeader.swift */,
+				007D977A22A14BA10000AE47 /* PostCommentView.swift */,
+				007D977C22A14BAD0000AE47 /* PostCommentView.xib */,
+				007D977E22A14BDF0000AE47 /* PostVideoOrArticleView.swift */,
+				007D978022A14BEB0000AE47 /* PostVideoOrArticleView.xib */,
+				007D978222A14C1C0000AE47 /* PreviewDongtaiBigImageLayout.swift */,
+				007D978422A14C420000AE47 /* RelationRecommendCell.swift */,
+				007D978522A14C420000AE47 /* RelationRecommendCell.xib */,
+				007D978822A14C710000AE47 /* RelationRecommendView.swift */,
+				007D978A22A14C830000AE47 /* RelationRecommendView.xib */,
+				007D978C22A14CB10000AE47 /* SettingCell.swift */,
+				007D978D22A14CB10000AE47 /* SettingCell.xib */,
+				007D979022A14CD50000AE47 /* TopTabScrollView.swift */,
+				007D979222A14CF20000AE47 /* UserDetailBottomView.swift */,
+				007D979422A14D4D0000AE47 /* UserDetailCell.swift */,
+				007D979522A14D4D0000AE47 /* UserDetailCell.xib */,
+				007D979822A14D6F0000AE47 /* UserDetailDongTaiCell.swift */,
+				007D979922A14D6F0000AE47 /* UserDetailDongTaiCell.xib */,
+				007D97A022A14DC20000AE47 /* UserDetailHeaderView.swift */,
+				007D979E22A14D9C0000AE47 /* UserDetailHeaderView.xib */,
+				007D97A222A14DF00000AE47 /* UserDetailHeaderView2.swift */,
+				007D97A522A14E160000AE47 /* UserDetailHeaderView2.xib */,
+				007D97A422A14E130000AE47 /* UserDetailHeaderView2.xib */,
+				007D97A622A14E430000AE47 /* UserDetailNavigationBar.swift */,
+				007D97A822A14E5E0000AE47 /* UserDetailNavigationBar.xib */,
+				007D97AA22A14E920000AE47 /* UserDetailWendaCell.swift */,
+				007D97AB22A14E920000AE47 /* UserDetailWendaCell.xib */,
+				007D97AE22A14EAF0000AE47 /* UserDiggCell.swift */,
+				007D97AF22A14EAF0000AE47 /* UserDiggCell.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -508,15 +701,41 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				007D978722A14C420000AE47 /* RelationRecommendCell.xib in Resources */,
+				007D977122A14AF00000AE47 /* EmojiCollectionCell.xib in Resources */,
+				007D975F22A149B30000AE47 /* DongtaiCommentTableViewCell.xib in Resources */,
+				007D978122A14BEB0000AE47 /* PostVideoOrArticleView.xib in Resources */,
+				007D976322A14A040000AE47 /* DongtaiDetailHeaderView.xib in Resources */,
+				007D97AD22A14E920000AE47 /* UserDetailWendaCell.xib in Resources */,
 				00343B1B229C102500DFE790 /* default_theme.plist in Resources */,
+				007D97A922A14E5E0000AE47 /* UserDetailNavigationBar.xib in Resources */,
+				007D97B122A14EAF0000AE47 /* UserDiggCell.xib in Resources */,
+				007D976B22A14A980000AE47 /* DongtaiOriginThreadView.xib in Resources */,
+				007D977D22A14BAD0000AE47 /* PostCommentView.xib in Resources */,
+				007D975B22A127890000AE47 /* DongtaiCollectionViewCell.xib in Resources */,
 				00AA05EC22A0D872005529D3 /* MyConcernCell.xib in Resources */,
+				007D973F22A1220D0000AE47 /* PreviewUserAvatarController.xib in Resources */,
+				007D973522A121100000AE47 /* UserDetailBottomPopController.xib in Resources */,
+				007D975122A122CC0000AE47 /* UserDiggViewController.xib in Resources */,
 				F44C116A229D84EB009A15C7 /* night_theme.plist in Resources */,
+				007D977722A14B5F0000AE47 /* OfflineDownloadCell.xib in Resources */,
+				007D979722A14D4D0000AE47 /* UserDetailCell.xib in Resources */,
 				00AA05E022A0D44A005529D3 /* MyFirstSectionCell.xib in Resources */,
+				007D975522A123960000AE47 /* DongtaiCollectionView.xib in Resources */,
+				007D978B22A14C830000AE47 /* RelationRecommendView.xib in Resources */,
 				00343A17229B903F00DFE790 /* LaunchScreen.storyboard in Resources */,
+				007D974322A122390000AE47 /* UserDetailViewController2.xib in Resources */,
 				00343A14229B903F00DFE790 /* Assets.xcassets in Resources */,
+				007D979B22A14D6F0000AE47 /* UserDetailDongTaiCell.xib in Resources */,
+				007D978F22A14CB10000AE47 /* SettingCell.xib in Resources */,
+				007D972F22A120BD0000AE47 /* UserDetailViewController.xib in Resources */,
 				00AA05D822A0D209005529D3 /* MyOtherCell.xib in Resources */,
+				007D974922A122750000AE47 /* DongtaiDetailViewController.xib in Resources */,
+				007D976722A14A4F0000AE47 /* DongtaiNavigationBar.xib in Resources */,
 				00343A12229B903E00DFE790 /* Main.storyboard in Resources */,
+				007D973B22A121E80000AE47 /* PreviewDongtaiBigImageController.xib in Resources */,
 				00AA05F222A0DB9B005529D3 /* NoLoginHeaderView.xib in Resources */,
+				007D979F22A14D9C0000AE47 /* UserDetailHeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -604,33 +823,70 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				007D977F22A14BDF0000AE47 /* PostVideoOrArticleView.swift in Sources */,
+				007D975E22A149B30000AE47 /* DongtaiCommentTableViewCell.swift in Sources */,
+				007D972922A120770000AE47 /* SettingViewController.swift in Sources */,
+				007D975A22A127890000AE47 /* DongtaiCollectionViewCell.swift in Sources */,
 				00AA05DF22A0D44A005529D3 /* MyFirstSectionCell.swift in Sources */,
 				00AA05D222A0CD05005529D3 /* SettingModel.swift in Sources */,
+				007D976122A149E20000AE47 /* DongtaiDetailHeaderView.swift in Sources */,
+				007D972B22A1209D0000AE47 /* OfflineDownloadController.swift in Sources */,
 				00343B18229C0BF800DFE790 /* RefreshView.swift in Sources */,
+				007D979322A14CF20000AE47 /* UserDetailBottomView.swift in Sources */,
 				00AA05CE22A0CAB7005529D3 /* UserDetail.swift in Sources */,
 				00343A28229BB56E00DFE790 /* MyNavigationController.swift in Sources */,
+				007D974222A122390000AE47 /* UserDetailViewController2.swift in Sources */,
+				007D973422A121100000AE47 /* UserDetailBottomPopController.swift in Sources */,
 				00343B0E229C065500DFE790 /* WeitoutiaoViewController.swift in Sources */,
+				007D978622A14C420000AE47 /* RelationRecommendCell.swift in Sources */,
+				007D976922A14A830000AE47 /* DongtaiOriginThreadView.swift in Sources */,
+				007D974822A122750000AE47 /* DongtaiDetailViewController.swift in Sources */,
+				007D97A122A14DC20000AE47 /* UserDetailHeaderView.swift in Sources */,
 				F44C1172229D85C7009A15C7 /* MyCellModel.swift in Sources */,
+				007D978E22A14CB10000AE47 /* SettingCell.swift in Sources */,
+				007D97AC22A14E920000AE47 /* UserDetailWendaCell.swift in Sources */,
+				007D972E22A120BD0000AE47 /* UserDetailViewController.swift in Sources */,
+				007D973722A121830000AE47 /* MyPresentationController.swift in Sources */,
+				007D973122A120E50000AE47 /* UserDetailBottomPushController.swift in Sources */,
 				00343B0A229C060700DFE790 /* VideoViewController.swift in Sources */,
+				007D976522A14A430000AE47 /* DongtaiNavigationBar.swift in Sources */,
+				007D977B22A14BA10000AE47 /* PostCommentView.swift in Sources */,
 				00343B16229C0BD400DFE790 /* RichLabel.swift in Sources */,
+				007D977922A14B8C0000AE47 /* OfflineSectionHeader.swift in Sources */,
 				00343A2A229BB5E300DFE790 /* MyTabbarController.swift in Sources */,
+				007D973A22A121E80000AE47 /* PreviewDongtaiBigImageController.swift in Sources */,
+				007D979622A14D4D0000AE47 /* UserDetailCell.swift in Sources */,
 				00AA05F122A0DB9B005529D3 /* NoLoginHeaderView.swift in Sources */,
 				00AA05D422A0CDB8005529D3 /* PopoverAnimator.swift in Sources */,
 				00343B0C229C061A00DFE790 /* HuoshanViewController.swift in Sources */,
+				007D97B022A14EAF0000AE47 /* UserDiggCell.swift in Sources */,
 				00343B12229C068F00DFE790 /* RedPackageViewController2.swift in Sources */,
 				00AA05D722A0D209005529D3 /* MyOtherCell.swift in Sources */,
+				007D975022A122CC0000AE47 /* UserDiggViewController.swift in Sources */,
 				F44C1176229D87E2009A15C7 /* NetworkTool.swift in Sources */,
+				007D979A22A14D6F0000AE47 /* UserDetailDongTaiCell.swift in Sources */,
 				00AA05CC22A0C40D005529D3 /* Calculatable.swift in Sources */,
+				007D978922A14C710000AE47 /* RelationRecommendView.swift in Sources */,
+				007D978322A14C1C0000AE47 /* PreviewDongtaiBigImageLayout.swift in Sources */,
+				007D977022A14AF00000AE47 /* EmojiCollectionCell.swift in Sources */,
+				007D973E22A1220D0000AE47 /* PreviewUserAvatarController.swift in Sources */,
 				00343A0F229B903E00DFE790 /* ViewController.swift in Sources */,
+				007D97A322A14DF00000AE47 /* UserDetailHeaderView2.swift in Sources */,
 				00343A0D229B903E00DFE790 /* AppDelegate.swift in Sources */,
 				00343B10229C068100DFE790 /* RedPackageViewController.swift in Sources */,
 				00AA05EE22A0D96A005529D3 /* MyConcernCell.swift in Sources */,
 				00AA05F422A0DC98005529D3 /* MyTheme.swift in Sources */,
+				007D979122A14CD50000AE47 /* TopTabScrollView.swift in Sources */,
 				00343AF1229BF20900DFE790 /* Const.swift in Sources */,
 				00AA05C4229FBDD4005529D3 /* Emoji.swift in Sources */,
 				00343B08229C05ED00DFE790 /* HomeViewController.swift in Sources */,
+				007D975722A1252D0000AE47 /* DongtaiCollectionView.swift in Sources */,
 				00343B14229C0BB200DFE790 /* MyTabbar.swift in Sources */,
+				007D977622A14B5F0000AE47 /* OfflineDownloadCell.swift in Sources */,
 				00AA05C2229FAA53005529D3 /* UIKit+Extension.swift in Sources */,
+				007D974522A122590000AE47 /* DongtaiTableViewController.swift in Sources */,
+				007D977322A14B280000AE47 /* EmojiLayout.swift in Sources */,
+				007D97A722A14E430000AE47 /* UserDetailNavigationBar.swift in Sources */,
 				F44C1170229D8554009A15C7 /* MineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
