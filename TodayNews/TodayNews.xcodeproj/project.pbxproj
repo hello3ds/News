@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		000ACC5522AE337C00711E1A /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000ACC5422AE337C00711E1A /* NewsModel.swift */; };
+		000ACC5922AE357200711E1A /* Foundation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000ACC5822AE357200711E1A /* Foundation+Extension.swift */; };
 		00343A0D229B903E00DFE790 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00343A0C229B903E00DFE790 /* AppDelegate.swift */; };
 		00343A0F229B903E00DFE790 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00343A0E229B903E00DFE790 /* ViewController.swift */; };
 		00343A12229B903E00DFE790 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00343A10229B903E00DFE790 /* Main.storyboard */; };
@@ -103,6 +105,7 @@
 		00AA05F122A0DB9B005529D3 /* NoLoginHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AA05EF22A0DB9A005529D3 /* NoLoginHeaderView.swift */; };
 		00AA05F222A0DB9B005529D3 /* NoLoginHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00AA05F022A0DB9B005529D3 /* NoLoginHeaderView.xib */; };
 		00AA05F422A0DC98005529D3 /* MyTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AA05F322A0DC98005529D3 /* MyTheme.swift */; };
+		00E5231222A27427006EF395 /* SnapKitTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E5231122A27427006EF395 /* SnapKitTestView.swift */; };
 		D9EEF53EE8C602117F7156D6 /* Pods_TodayNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 952362B8E1051BC8E58A3F2A /* Pods_TodayNews.framework */; };
 		F44C116A229D84EB009A15C7 /* night_theme.plist in Resources */ = {isa = PBXBuildFile; fileRef = F44C1169229D84EB009A15C7 /* night_theme.plist */; };
 		F44C1170229D8554009A15C7 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44C116F229D8554009A15C7 /* MineViewController.swift */; };
@@ -111,6 +114,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		000ACC5422AE337C00711E1A /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		000ACC5822AE357200711E1A /* Foundation+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Foundation+Extension.swift"; sourceTree = "<group>"; };
 		00343A09229B903D00DFE790 /* TodayNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodayNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00343A0C229B903E00DFE790 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00343A0E229B903E00DFE790 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -211,6 +216,7 @@
 		00AA05EF22A0DB9A005529D3 /* NoLoginHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoLoginHeaderView.swift; sourceTree = "<group>"; };
 		00AA05F022A0DB9B005529D3 /* NoLoginHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoLoginHeaderView.xib; sourceTree = "<group>"; };
 		00AA05F322A0DC98005529D3 /* MyTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTheme.swift; sourceTree = "<group>"; };
+		00E5231122A27427006EF395 /* SnapKitTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitTestView.swift; sourceTree = "<group>"; };
 		5EECACF1D300DE5540A1E08D /* Pods-TodayNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayNews.debug.xcconfig"; path = "Target Support Files/Pods-TodayNews/Pods-TodayNews.debug.xcconfig"; sourceTree = "<group>"; };
 		778895AE99D32A1FC92E6DAC /* Pods-TodayNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayNews.release.xcconfig"; path = "Target Support Files/Pods-TodayNews/Pods-TodayNews.release.xcconfig"; sourceTree = "<group>"; };
 		952362B8E1051BC8E58A3F2A /* Pods_TodayNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodayNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -361,6 +367,7 @@
 		00343AF3229C049600DFE790 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				000ACC5422AE337C00711E1A /* NewsModel.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -500,6 +507,7 @@
 			isa = PBXGroup;
 			children = (
 				00AA05C1229FAA53005529D3 /* UIKit+Extension.swift */,
+				000ACC5822AE357200711E1A /* Foundation+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -598,6 +606,7 @@
 				007D978A22A14C830000AE47 /* RelationRecommendView.xib */,
 				007D978C22A14CB10000AE47 /* SettingCell.swift */,
 				007D978D22A14CB10000AE47 /* SettingCell.xib */,
+				00E5231122A27427006EF395 /* SnapKitTestView.swift */,
 				007D979022A14CD50000AE47 /* TopTabScrollView.swift */,
 				007D979222A14CF20000AE47 /* UserDetailBottomView.swift */,
 				007D979422A14D4D0000AE47 /* UserDetailCell.swift */,
@@ -865,6 +874,7 @@
 				007D975022A122CC0000AE47 /* UserDiggViewController.swift in Sources */,
 				F44C1176229D87E2009A15C7 /* NetworkTool.swift in Sources */,
 				007D979A22A14D6F0000AE47 /* UserDetailDongTaiCell.swift in Sources */,
+				000ACC5522AE337C00711E1A /* NewsModel.swift in Sources */,
 				00AA05CC22A0C40D005529D3 /* Calculatable.swift in Sources */,
 				007D978922A14C710000AE47 /* RelationRecommendView.swift in Sources */,
 				007D978322A14C1C0000AE47 /* PreviewDongtaiBigImageLayout.swift in Sources */,
@@ -880,11 +890,13 @@
 				00343AF1229BF20900DFE790 /* Const.swift in Sources */,
 				00AA05C4229FBDD4005529D3 /* Emoji.swift in Sources */,
 				00343B08229C05ED00DFE790 /* HomeViewController.swift in Sources */,
+				00E5231222A27427006EF395 /* SnapKitTestView.swift in Sources */,
 				007D975722A1252D0000AE47 /* DongtaiCollectionView.swift in Sources */,
 				00343B14229C0BB200DFE790 /* MyTabbar.swift in Sources */,
 				007D977622A14B5F0000AE47 /* OfflineDownloadCell.swift in Sources */,
 				00AA05C2229FAA53005529D3 /* UIKit+Extension.swift in Sources */,
 				007D974522A122590000AE47 /* DongtaiTableViewController.swift in Sources */,
+				000ACC5922AE357200711E1A /* Foundation+Extension.swift in Sources */,
 				007D977322A14B280000AE47 /* EmojiLayout.swift in Sources */,
 				007D97A722A14E430000AE47 /* UserDetailNavigationBar.swift in Sources */,
 				F44C1170229D8554009A15C7 /* MineViewController.swift in Sources */,

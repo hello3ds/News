@@ -53,7 +53,7 @@ let UserDetailHeaderViewButtonClicked = "UserDetailHeaderViewButtonClicked"
 
 let image1Width: CGFloat = screenWidth * 0.5
 let image2Width: CGFloat = (screenWidth - 35) * 0.5
-let iamge3Width: CGFloat = (screenWidth - 40) / 3
+let image3Width: CGFloat = (screenWidth - 40) / 3
 
 
 ///从哪里进入问答控制器
