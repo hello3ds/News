@@ -19,6 +19,7 @@ protocol NetworkToolProtocol {
     // MARK: *************** 视频 video **************
     // MARK: *************** 我的 mine **************
     // MARK: 我的界面 cell 的数据
+    
     // MARK: 我的关注数据
     // MARK: 获取用户详情数据
     // MARK: 已关注用户，取消关注

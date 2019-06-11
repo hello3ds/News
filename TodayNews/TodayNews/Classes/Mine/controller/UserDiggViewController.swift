@@ -7,17 +7,26 @@
 //
 
 import UIKit
+import SVProgressHUD
+
 
 class UserDiggViewController: UITableViewController {
+    
+    var userId = 0
+    
+    var digglist = [DongtaiUserDigg]()
+    
         
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        navigationItem.title = "赞过的人"
+        SVProgressHUD.configuration()
+        tableView.tableFooterView = UIView()
+        tableView.ym_registerCell(cell: UserDiggCell.self)
+        tableView.mj_footer = RefreshAutoGifFooter(refreshingBlock: {[weak self] in
+//            NetworkTool.loadDongtaiDetailUserDigglist(
+        })
     }
 
     // MARK: - Table view data source

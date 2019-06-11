@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		000ACC5522AE337C00711E1A /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000ACC5422AE337C00711E1A /* NewsModel.swift */; };
 		000ACC5922AE357200711E1A /* Foundation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000ACC5822AE357200711E1A /* Foundation+Extension.swift */; };
+		000ACC5B22AF9AFA00711E1A /* SVProgressHUD+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000ACC5A22AF9AFA00711E1A /* SVProgressHUD+Extension.swift */; };
 		00343A0D229B903E00DFE790 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00343A0C229B903E00DFE790 /* AppDelegate.swift */; };
 		00343A0F229B903E00DFE790 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00343A0E229B903E00DFE790 /* ViewController.swift */; };
 		00343A12229B903E00DFE790 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00343A10229B903E00DFE790 /* Main.storyboard */; };
@@ -116,6 +117,7 @@
 /* Begin PBXFileReference section */
 		000ACC5422AE337C00711E1A /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
 		000ACC5822AE357200711E1A /* Foundation+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Foundation+Extension.swift"; sourceTree = "<group>"; };
+		000ACC5A22AF9AFA00711E1A /* SVProgressHUD+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SVProgressHUD+Extension.swift"; sourceTree = "<group>"; };
 		00343A09229B903D00DFE790 /* TodayNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodayNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00343A0C229B903E00DFE790 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00343A0E229B903E00DFE790 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -508,6 +510,7 @@
 			children = (
 				00AA05C1229FAA53005529D3 /* UIKit+Extension.swift */,
 				000ACC5822AE357200711E1A /* Foundation+Extension.swift */,
+				000ACC5A22AF9AFA00711E1A /* SVProgressHUD+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -847,6 +850,7 @@
 				007D974222A122390000AE47 /* UserDetailViewController2.swift in Sources */,
 				007D973422A121100000AE47 /* UserDetailBottomPopController.swift in Sources */,
 				00343B0E229C065500DFE790 /* WeitoutiaoViewController.swift in Sources */,
+				000ACC5B22AF9AFA00711E1A /* SVProgressHUD+Extension.swift in Sources */,
 				007D978622A14C420000AE47 /* RelationRecommendCell.swift in Sources */,
 				007D976922A14A830000AE47 /* DongtaiOriginThreadView.swift in Sources */,
 				007D974822A122750000AE47 /* DongtaiDetailViewController.swift in Sources */,

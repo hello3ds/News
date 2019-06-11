@@ -8,7 +8,7 @@
 
 import UIKit
 
-class UserDiggCell: UITableViewCell {
+class UserDiggCell: UITableViewCell,RegisterCellFromNib {
 
     override func awakeFromNib() {
         super.awakeFromNib()
